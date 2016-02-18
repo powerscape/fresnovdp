@@ -2,7 +2,7 @@ html, body{
     margin:0;
     padding:0;
     font-size:62.5%;
-    background-color:dimgrey;
+    background-color:black;
 }
 body{
     background-color:black;
@@ -13,7 +13,7 @@ body{
     height:100%;
 }
 header{
-    background-color:lightblue;
+    background-color:darkred;
     margin:0;
     padding:0;
     width:100%;
@@ -65,7 +65,7 @@ nav ul li a{
     margin-left:20px;
 }
 main{
-    background-color:aqua;
+    background-color:black;
     margin-left:3em;
     margin-top:0;
     padding:0;
@@ -82,28 +82,72 @@ main{
     margin:4em;
     margin-left:2em;
     padding:0;
-    width:calc(80%/2);
-    height:300px;
+    width:calc(90%/2);
+    height:200px;
     color:white;
     border-color:black;
     border-style:solid;
     border-width:1px;
     float:left;
     text-align:center;
-    background-color:brown;
+    font-size:15px;
+    background-color:black;
     
 }
 #info{
-    margin:4em;
+    margin:0;
     margin-right:2em;
     padding:0;
-    width:calc(80%/2);
-    height:300px;
+    width:calc(90%/2);
+    height:200px;
     color:white;
     border-color:black;
     border-style:solid;
     border-width:1px;
     float:right;
     text-align:center;
-    background-color:brown;
+    background-color:black;
+    font-size:5em;
+}
+
+
+
+footer{
+    margin:0 auto;
+    margin-bottom:40px;
+    padding-top:20px;
+    padding-bottom:20px;
+    background-color:#5A6D95;
+    width:60%;
+    margin-left:20%;
+    font-size:1.6em;
+    
+}
+
+footer section{
+    margin:0 auto;
+    padding:0;
+    width:100%;
+    
+}
+
+footer section p{
+    display:inline-block;
+    float:left;
+   
+}
+
+#copyright{
+    padding-left:25px;
+    padding-right:30px;
+    color:#ffffff;
+}
+
+footer section img{
+    display:inline-block;
+   
+}
+
+#facebook{
+    margin-left:180px;
 }
