@@ -1,4 +1,6 @@
 html, body{
+    height:90%;
+    width:100%;
     margin:0;
     padding:0;
     font-size:62.5%;
@@ -6,7 +8,6 @@ html, body{
 }
 body{
     background-color:black;
-    box-sizing:border-box;
     margin:0;
     padding:2em;
     width:100%;
@@ -95,8 +96,7 @@ main{
     
 }
 #info{
-    margin:0;
-    margin-right:2em;
+    margin:0 auto;
     padding:0;
     width:calc(90%/2);
     height:200px;
@@ -110,44 +110,10 @@ main{
     font-size:5em;
 }
 
-
-
-footer{
-    margin:0 auto;
-    margin-bottom:40px;
-    padding-top:20px;
-    padding-bottom:20px;
-    background-color:#5A6D95;
-    width:60%;
-    margin-left:20%;
-    font-size:1.6em;
-    
-}
-
-footer section{
-    margin:0 auto;
+#footer{
+    margin:5px;
     padding:0;
     width:100%;
-    
-}
-
-footer section p{
-    display:inline-block;
-    float:left;
-   
-}
-
-#copyright{
-    padding-left:25px;
-    padding-right:30px;
-    color:#ffffff;
-}
-
-footer section img{
-    display:inline-block;
-   
-}
-
-#facebook{
-    margin-left:180px;
+    height:auto;
+    text-align:center;
 }
