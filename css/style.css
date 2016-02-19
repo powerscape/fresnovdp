@@ -117,8 +117,7 @@ main{
     font-size:3em;
 }
 
-#footer{
-   
+#footer{  
     margin:0 auto;
     padding:0;
     width:600px;   
@@ -127,9 +126,14 @@ main{
 }
 footer hr{
     width:650px;
-    height:1px;
+    height:5px;
+    border-radius:50%;
    
 }
+#imgone{
+    border-radius:50%;
+}
+
 #google{
     margin:5em;
     padding-left:25em;
