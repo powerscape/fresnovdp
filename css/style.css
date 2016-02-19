@@ -80,11 +80,10 @@ main{
     height:100%;
 }
 #personal{
-    margin:4em;
+    margin:0;
     margin-left:2em;
     padding:0;
     width:calc(90%/2);
-    height:200px;
     color:white;
     border-color:black;
     border-style:solid;
@@ -99,7 +98,7 @@ main{
     margin:0 auto;
     padding:0;
     width:calc(90%/2);
-    height:200px;
+    height:100%;
     color:white;
     border-color:black;
     border-style:solid;
@@ -107,14 +106,15 @@ main{
     float:right;
     text-align:center;
     background-color:black;
-    font-size:4em;
+    font-size:3em;
 }
 
 #footer{
     margin:0 auto;
     padding:0;
-    width:100%;
+    width:5%;
     height:10px;
+    clear:both;
 }
 #google{
     margin:4em;
