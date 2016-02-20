@@ -1,3 +1,6 @@
+/* THIS IS STYLE FOR INDEX
+*/
+
 html, body{
     height:90%;
     width:100%;
@@ -55,6 +58,12 @@ nav ul li{
     display:inline-block;
     
 }
+
+
+/* THIS IS STYLE FOR NAV 1
+*/
+
+
 nav ul li a{
     color:white;
     margin:8px;
@@ -73,6 +82,12 @@ nav ul li a{
 #home{
     margin-left:20px;
 }
+
+
+/* THIS IS STYLE FOR MAIN
+*/
+
+
 main{
     background-color:black;
     margin-left:3em;
@@ -117,6 +132,11 @@ main{
     font-size:3em;
 }
 
+
+/* THIS IS STYLE FOR FOOTER
+*/
+
+
 #footer{  
     margin:0 auto;
     padding:0;
@@ -134,7 +154,36 @@ footer hr{
     border-radius:50%;
 }
 
+
+/* THIS IS STYLE FOR PARADE
+*/
+
+
 #google{
     margin:5em;
     padding-left:25em;
+}
+
+/* THIS IS STYLE FOR PRESS
+*/
+
+#div_one{
+    margin:15px;
+    padding-top:10em;
+    height:80%;
+    width:100%;
+    background-color:dimgray;
+    text-align:left;
+    
+}
+p{
+    margin:0 auto;
+    color:white;
+    font-size:3em;
+    display:block;
+    width:80%;
+}
+#falcon{
+    display:block;
+    
 }
