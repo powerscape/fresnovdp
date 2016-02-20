@@ -59,6 +59,14 @@ nav ul li{
     
 }
 
+span{
+    font-size:20px;
+}
+
+email{
+    font-size:20px;
+}
+
 
 /* THIS IS STYLE FOR NAV 1
 */
@@ -113,7 +121,7 @@ main{
     border-width:1px;
     float:left;
     text-align:center;
-    font-size:15px;
+    font-size:5px;
     background-color:black;
     
 }
@@ -129,7 +137,7 @@ main{
     float:right;
     text-align:center;
     background-color:black;
-    font-size:3em;
+    font-size:10px;
 }
 
 
