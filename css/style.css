@@ -195,3 +195,24 @@ p{
     display:block;
     
 }
+
+/* THIS IS STYLE FOR MARSHAL
+*/
+
+main section{
+    margin:0;
+    padding:2em;
+    height:auto;
+    width:100%;
+    display:inline-block;
+}
+ 
+main section p{
+    text-align: center;
+}
+#art_one{
+    margin:0 auto;
+    padding: 4em;
+    padding-left:20em;
+    width:25%;
+}
