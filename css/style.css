@@ -150,7 +150,8 @@ main{
     padding:0;
     width:600px;   
     height:100px;
-    clear:both;   
+    clear:both; 
+    display:block;
 }
 footer hr{
     width:650px;
@@ -160,6 +161,10 @@ footer hr{
 }
 #imgone{
     border-radius:50%;
+}
+.section{
+    display:inline-block;
+    
 }
 
 
@@ -182,6 +187,10 @@ footer hr{
     width:100%;
     background-color:black;
     text-align:left;
+    border:solid;
+    border-color:white;
+    border-width:5px;
+    border-radius:20em;
     
 }
 p{
@@ -212,7 +221,17 @@ main section p{
 }
 #art_one{
     margin:0 auto;
-    padding: 4em;
-    padding-left:20em;
+    padding:7px;
+    padding-left:2em;
     width:25%;
 }
+#art_two{
+    margin:0 auto;
+    padding:0;
+    padding-left:10em;
+    width:auto;
+    height:100%;
+    display:block;
+    font-size:4px;
+}
+
