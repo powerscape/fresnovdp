@@ -111,18 +111,20 @@ main{
     height:120%;
 }
 #personal{
-    margin:0;
+    margin:0 auto;
     margin-left:2em;
-    padding:0;
+    padding:9px;
     width:calc(90%/2);
+    height:41%;
     color:white;
     border-color:black;
     border-style:solid;
-    border-width:1px;
+    border-width:2px;
     float:left;
     text-align:center;
     font-size:5px;
     background-color:black;
+    border-radius:20%;
     
 }
 #info{
@@ -133,11 +135,12 @@ main{
     color:white;
     border-color:black;
     border-style:solid;
-    border-width:1px;
+    border-width:2px;
     float:right;
     text-align:center;
     background-color:black;
     font-size:10px;
+    border-radius:20%;
 }
 
 
@@ -148,9 +151,9 @@ main{
 #footer{  
     margin:0 auto;
     padding:0;
-    width:600px;   
+    width:calc(100%/2);   
     height:100px;
-    clear:both;   
+    clear:both;
 }
 footer hr{
     width:650px;
@@ -160,6 +163,17 @@ footer hr{
 }
 #imgone{
     border-radius:50%;
+}
+
+
+#index_section{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:0;
+    clear:both;
+    display:inline-block;
+    
 }
 
 
@@ -175,6 +189,13 @@ footer hr{
 /* THIS IS STYLE FOR PRESS
 */
 
+#hp{
+    color:limegreen;
+    font-style: italic;
+    
+    
+}
+
 #div_one{
     margin:15px;
     padding-top:10em;
@@ -182,6 +203,10 @@ footer hr{
     width:100%;
     background-color:black;
     text-align:left;
+    border:solid;
+    border-color:white;
+    border-width:5px;
+    border-radius:20em;
     
 }
 p{
@@ -194,4 +219,78 @@ p{
 #falcon{
     display:block;
     
+}
+
+/* THIS IS STYLE FOR MARSHAL
+*/
+
+main section{
+    margin:0;
+    padding:2em;
+    height:auto;
+    width:100%;
+    display:inline-block;
+}
+ 
+main section p{
+    text-align: center;
+}
+#art_one{
+    margin:0 auto;
+    padding:7px;
+    padding-left:2em;
+    width:calc(100%);
+    display:inline-block;
+    text-align:center;
+}
+#art_two{
+    margin:0 auto;
+    padding:0;
+    padding-left:10em;
+    width:auto;
+    height:100%;
+    display:block;
+    font-size:4px;
+}
+
+/* THIS IS STYLE FOR SPONSORS
+*/
+
+.sponsors_sec{
+    margin:0 auto;
+    padding:0;
+    height:80%;
+    width:80%;
+    border-style:solid;
+    border-radius:20em;
+    border-width:2px;
+    text-align:center;
+    display:inline;
+}
+
+.sponsors_art{
+    margin:0 auto;
+    padding-top:15em;
+    height:60%;
+    width:60%;
+    background-color:black;
+    align-content:center;
+}
+
+#sponsors_img{
+    margin:0 auto;
+    padding:2%;
+    width:30%;
+    height:15%;
+    float:left;
+    border-radius:30%;
+    
+}
+
+#sponsors_img_one{
+    margin:0 auto;
+    padding-top:0%;
+    width:30%;
+    height:65%;
+    border-radius:30%;
 }
