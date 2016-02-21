@@ -68,6 +68,10 @@ email{
 }
 
 
+
+
+
+
 /* THIS IS STYLE FOR NAV 1
 */
 
@@ -90,6 +94,12 @@ nav ul li a{
 #home{
     margin-left:20px;
 }
+
+
+
+
+
+
 
 
 /* THIS IS STYLE FOR MAIN
@@ -144,6 +154,11 @@ main{
 }
 
 
+
+
+
+
+
 /* THIS IS STYLE FOR FOOTER
 */
 
@@ -177,6 +192,11 @@ footer hr{
 }
 
 
+
+
+
+
+
 /* THIS IS STYLE FOR PARADE
 */
 
@@ -185,6 +205,11 @@ footer hr{
     margin:5em;
     padding-left:25em;
 }
+
+
+
+
+
 
 /* THIS IS STYLE FOR PRESS
 */
@@ -221,6 +246,11 @@ p{
     
 }
 
+
+
+
+
+
 /* THIS IS STYLE FOR MARSHAL
 */
 
@@ -252,6 +282,11 @@ main section p{
     display:block;
     font-size:4px;
 }
+
+
+
+
+
 
 /* THIS IS STYLE FOR SPONSORS
 */
@@ -293,4 +328,46 @@ main section p{
     width:30%;
     height:65%;
     border-radius:30%;
+}
+
+
+
+
+
+
+/* THIS IS STYLE FOR ABOUT US
+*/
+
+.about_main{
+    margin:0 auto;
+    padding:5em;
+    height:100%;
+    width:40%;
+    align-content: center;
+}
+
+.about_sec{
+    margin:0 auto;
+    padding:0;
+    height:60%;
+    width:100%;
+    font:white;
+    
+}
+
+#about_article{
+    margin:0 auto;
+    padding:0;
+    height:90%;
+    width:90%;
+    font:white;
+}
+
+#about_p{
+    color:white;
+    font-size:4em;
+}
+#about_span{
+    color:white;
+    font-size:2em;
 }
