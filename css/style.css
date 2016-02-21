@@ -164,10 +164,7 @@ footer hr{
 #imgone{
     border-radius:50%;
 }
-.section{
-    display:inline-block;
-    
-}
+
 
 #index_section{
     margin:0;
@@ -191,6 +188,13 @@ footer hr{
 
 /* THIS IS STYLE FOR PRESS
 */
+
+#hp{
+    color:limegreen;
+    font-style: italic;
+    
+    
+}
 
 #div_one{
     margin:15px;
@@ -235,7 +239,9 @@ main section p{
     margin:0 auto;
     padding:7px;
     padding-left:2em;
-    width:25%;
+    width:calc(100%);
+    display:inline-block;
+    text-align:center;
 }
 #art_two{
     margin:0 auto;
@@ -247,3 +253,45 @@ main section p{
     font-size:4px;
 }
 
+/* THIS IS STYLE FOR SPONSORS
+*/
+
+.sponsors_sec{
+    margin:0 auto;
+    padding:0;
+    height:80%;
+    width:80%;
+    border-style:solid;
+    border-color:white;
+    border-radius:20em;
+    border-width:2px;
+    text-align:center;
+    display:inline;
+}
+
+.sponsors_art{
+    margin:0 auto;
+    padding-top:15em;
+    height:60%;
+    width:60%;
+    background-color:black;
+    align-content:center;
+}
+
+#sponsors_img{
+    margin:0 auto;
+    padding:2%;
+    width:30%;
+    height:15%;
+    float:left;
+    border-radius:30%;
+    
+}
+
+#sponsors_img_one{
+    margin:0 auto;
+    padding-top:0%;
+    width:30%;
+    height:65%;
+    border-radius:30%;
+}
