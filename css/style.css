@@ -208,8 +208,7 @@ footer hr{
 #hp{
     color:limegreen;
     font-style: italic;
-    
-    
+
 }
 
 #div_one{
@@ -217,14 +216,10 @@ footer hr{
     padding-top:10em;
     padding-bottom: 2em;
     height:100%;
-    width:100%;
+    width:70%;
     background-color:black;
     text-align:left;
-    border:solid;
-    border-color:white;
-    border-width:5px;
-    border-radius:20em;
-    
+
 }
 p{
     margin:0 auto;
